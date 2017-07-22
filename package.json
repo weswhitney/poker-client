@@ -1,0 +1,19 @@
+{
+  "name": "hiphopipsum",
+  "version": "1.0.0",
+  "description": "lorem ipsum generator for hip hop words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswhitney/hiphopipsum.git"
+  },
+  "author": "wes whitney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weswhitney/hiphopipsum/issues"
+  },
+  "homepage": "https://github.com/weswhitney/hiphopipsum#readme"
+}
