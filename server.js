@@ -1,25 +1,17 @@
-import http from 'http';
+import config from './config';
+import apiRouter from './api';
 
-// using https module as a client:
+import express from 'express';
+const server = express();
 
-// https.get('https://www.lynda.com', res => {
-// 	console.log("response status code: ", res.statusCode);
-
-// 	res.on('data', chunk => {
-// 		console.log(chunk.toString());
-// 	});
-// });
-
-const server = http.createServer((req, res) => {
-	res.write('Hello\n');
-	setTimeout(() => {
-		res.write('I can stream!\n');
-		res.end();
-	}, 3000);
+server.get('/', (req, res) => {
+	res.send('hello express wat');
 });
 
-server.listen(8080);
+server.use('/api', apiRouter);
+// in prod we should manage static assets seperate from the node server like nginx
+server.use(express.static('public'));
 
-server.on('request');
-
-
+server.listen(config.port, () => {
+	console.info('Express listening on port', config.port);
+});
