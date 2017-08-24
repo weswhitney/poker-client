@@ -2,18 +2,21 @@ import React from 'react';
 import Earth from './Earth';
 import Mars from './Mars';
 import Moon from './Moon';
-import { Match } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 class Main extends React.Component {
   render() {
     return (
       <main>
-        <Match pattern="/" component={Earth} />
-        <Match pattern="/mars" component={Mars} />
-        <Match pattern="/moon" component={Moon} />
+        <Switch>
+          <Route exact path="/" component={Earth} />
+          <Route exact path="/mars" component={Mars} />
+          <Route exact path="/moon" component={Moon} />
+        </Switch>
       </main>
     )
   }
 }
 
 export default Main;
+``
