@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <footer>
         <hr />
-        &copy; Space is Rad!
+        &copy; blackjack odds
       </footer>
     )
   }
