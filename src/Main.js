@@ -1,7 +1,7 @@
 import React from 'react';
-import Earth from './Earth';
-import Mars from './Mars';
-import Moon from './Moon';
+import Earth from './components/Earth';
+import Mars from './components/Mars';
+import Moon from './components/Moon';
 import { Route, Switch } from 'react-router-dom';
 
 class Main extends React.Component {
