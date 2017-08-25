@@ -7,9 +7,8 @@ class Header extends React.Component {
       <header>
         <nav>
           <ul>
-            <li><Link to="/">Earth</Link></li>
-            <li><Link to="/moon">Moon</Link></li>
-            <li><Link to="/mars">Mars</Link></li>
+            <li><Link to="/">Landing page</Link></li>
+            <li><Link to="/blackjack">Blackjack</Link></li>
           </ul>
         </nav>
         <hr />

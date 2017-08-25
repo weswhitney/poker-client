@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Mars extends React.Component {
+class Blackjack extends React.Component {
   render() {
     return (
       <main>
-        Mars
+        Blackjack
       </main>
     )
   }
 }
 
-export default Mars;
+export default Blackjack;

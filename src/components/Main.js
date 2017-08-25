@@ -1,7 +1,6 @@
 import React from 'react';
-import Earth from './Earth';
-import Mars from './Mars';
-import Moon from './Moon';
+import LandingPage from './LandingPage';
+import Blackjack from './Blackjack';
 import { Route, Switch } from 'react-router-dom';
 
 class Main extends React.Component {
@@ -9,9 +8,8 @@ class Main extends React.Component {
     return (
       <main>
         <Switch>
-          <Route exact path="/" component={Earth} />
-          <Route exact path="/mars" component={Mars} />
-          <Route exact path="/moon" component={Moon} />
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/blackjack" component={Blackjack} />
         </Switch>
       </main>
     )

@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Earth extends React.Component {
+class LandingPage extends React.Component {
   render() {
     return (
       <main>
-        Earth
+        LandingPage
       </main>
     )
   }
 }
 
-export default Earth;
+export default LandingPage;
