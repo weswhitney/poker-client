@@ -1,11 +1,13 @@
 import React from 'react';
+import Table from './Table';
 
 class Blackjack extends React.Component {
   render() {
     return (
-      <main>
+      <div>
+        <Table />
         Blackjack
-      </main>
+      </div>
     )
   }
 }
