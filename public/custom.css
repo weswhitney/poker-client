@@ -4,3 +4,9 @@
   height: 26em;
   border-radius: 101px;
 }
+
+#statsDiv {
+  width: 10em;
+  background:#aaa;
+  height: 20em;
+}
