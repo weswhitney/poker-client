@@ -4,7 +4,6 @@ class Table extends React.Component {
   render() {
     return (
       <div id="blackjacktable">
-      table component
       </div>
     )
   }
