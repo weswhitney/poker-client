@@ -3,3 +3,9 @@
   width: 66em;
   height: 26em;
 }
+
+#statsDiv {
+  width: 10em;
+  background:#aaa;
+  height: 20em;
+}
