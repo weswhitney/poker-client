@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <footer>
         <hr />
-        &copy; blackjack odds
+        &copy; devtools 2017
       </footer>
     )
   }
